@@ -4,4 +4,4 @@ An iOS app for discovering and sharing the places around France. This is a resul
 
 
 
-<img src="https://github.com/alivcor/Reperes/raw/master/screenshot.png"/>
+<img src="https://github.com/alivcor/Reperes/raw/master/screenshot.png" width="400px"/>
