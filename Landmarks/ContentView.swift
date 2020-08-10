@@ -35,7 +35,7 @@ struct ContentView: View {
                 }
                 
             }
-            .padding(.horizontal, 32)
+            .padding(.horizontal, 72.96)
             Spacer()
         }
     }
