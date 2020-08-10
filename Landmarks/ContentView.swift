@@ -7,10 +7,37 @@
 //
 
 import SwiftUI
+import os
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            MapView()
+            .edgesIgnoringSafeArea(.top)
+            .frame(height: 300)
+            
+            Versailles()
+            .offset(y: -130)
+            .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("Palace of Versailles")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.center)
+                HStack {
+                    Text("Versailles")
+                        .font(.subheadline)
+                    Spacer()
+                    Text(/*@START_MENU_TOKEN@*/"France"/*@END_MENU_TOKEN@*/)
+                        .font(.subheadline)
+                        .multilineTextAlignment(.leading)
+                }
+                
+            }
+            .padding(.horizontal, 32)
+            Spacer()
+        }
     }
 }
 

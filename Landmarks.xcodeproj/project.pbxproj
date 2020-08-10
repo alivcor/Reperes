@@ -14,6 +14,8 @@
 		0ADA51F424E0E05E00DA5D92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADA51F324E0E05E00DA5D92 /* Preview Assets.xcassets */; };
 		0ADA51F724E0E05E00DA5D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADA51F524E0E05E00DA5D92 /* LaunchScreen.storyboard */; };
 		0ADA520224E0E05F00DA5D92 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA520124E0E05F00DA5D92 /* LandmarksTests.swift */; };
+		0AE4926E24E0F78A0079786A /* Versailles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4926D24E0F78A0079786A /* Versailles.swift */; };
+		0AE4927024E0FC050079786A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4926F24E0FC050079786A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		0ADA51FD24E0E05F00DA5D92 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADA520124E0E05F00DA5D92 /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
 		0ADA520324E0E05F00DA5D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE4926D24E0F78A0079786A /* Versailles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versailles.swift; sourceTree = "<group>"; };
+		0AE4926F24E0FC050079786A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				0ADA51EA24E0E05A00DA5D92 /* AppDelegate.swift */,
 				0ADA51EC24E0E05A00DA5D92 /* SceneDelegate.swift */,
 				0ADA51EE24E0E05A00DA5D92 /* ContentView.swift */,
+				0AE4926D24E0F78A0079786A /* Versailles.swift */,
+				0AE4926F24E0FC050079786A /* MapView.swift */,
 				0ADA51F024E0E05E00DA5D92 /* Assets.xcassets */,
 				0ADA51F524E0E05E00DA5D92 /* LaunchScreen.storyboard */,
 				0ADA51F824E0E05E00DA5D92 /* Info.plist */,
@@ -209,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ADA51EB24E0E05A00DA5D92 /* AppDelegate.swift in Sources */,
+				0AE4926E24E0F78A0079786A /* Versailles.swift in Sources */,
+				0AE4927024E0FC050079786A /* MapView.swift in Sources */,
 				0ADA51ED24E0E05A00DA5D92 /* SceneDelegate.swift in Sources */,
 				0ADA51EF24E0E05A00DA5D92 /* ContentView.swift in Sources */,
 			);
